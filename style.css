@@ -172,8 +172,8 @@ body ul li {
   position: relative;
   top: 10%;
   width: 30%;
-  padding-right: 0;
-  margin-right: 0;
+  padding-left: 0;
+  margin-left: 0;
   flex-grow: 2;
 }
 
@@ -211,12 +211,12 @@ body {
 
 #first-block h2 {
   color: #ffffff;
-  text-align: right;
+  text-align: left;
 }
 
 #first-block p {
   color: #ffffff;
-  text-align: right;
+  text-align: left;
 }
 
 #intro {
@@ -257,9 +257,9 @@ body {
 
 #headshot {
   display: block;
-  margin-top: 8%;
-  margin-left: 15%;
-  margin-right: 20%;
+  margin-top: 10%;
+  margin-left: 40%;
+  margin-right: 15%;
   width: 300px;
   height: 300px;
 }
@@ -329,9 +329,9 @@ body ul li figure img {
   left: 50%;
   transform: translate(-50%, -50%);
   max-width: 60rem;
-  background-color: rgb(241, 240, 240);
+  background-color: #c2b9a7;
   padding: 5rem 6rem;
-  box-shadow: 0 4rem 6rem rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4rem 6rem #b9d3b6;
   z-index: 1000;
   transition: all 0.5s;
 }
@@ -341,13 +341,16 @@ body ul li figure img {
 }
 
 button {
+  color: #53626f;
   border: none;
   font-size: large;
   text-decoration: underline;
+  background-color: #c2b9a7;
 }
 
 button:hover {
   font-style: oblique;
+  color:#ffffff
 }
 
 .btnpair {
@@ -571,4 +574,12 @@ body {
 .fa-youtube {
   background: black;
   color: white;
+}
+
+.modalheader {
+  color:#53626f;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1%;
 }
