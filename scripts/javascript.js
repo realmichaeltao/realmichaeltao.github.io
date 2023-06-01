@@ -103,11 +103,17 @@ allSections.forEach(function (section) {
 
 
 
-document.querySelector('.navlink').addEventListener('click', function (e) {
+document.querySelector('.navlinks').addEventListener('click', function (e) {
     e.preventDefault();
 
-    const id = e.target.getAttribute('href');
-    document.querySelector(id).scrollIntoView({ behavior: 'smooth' });
+    // Matching strategy
+    if (e.target.classList.contains('navlink')) {
+        const id = e.target.getAttribute('href');
+        document.querySelector(id).scrollIntoView({ behavior: 'smooth' });
+    }
+    if (e.target.classList.contains('nonavlink')) {
+        window.open(e.target.getAttribute('href'));
+    }
     
 });
 
