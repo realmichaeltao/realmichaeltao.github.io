@@ -1,5 +1,5 @@
 'use strict';
-// sticky nav bar
+// nav bar
 window.onscroll = function () { myFunction() };
 var navbar = $(".nav");
 var sticky = 70;
@@ -11,7 +11,7 @@ function myFunction() {
     }
 }
 
-//welcome page modal
+// modal
 $("index.html").ready(function () {
     $(".overlay").removeClass('hidden');
     $(".modal").removeClass('hidden');
@@ -22,7 +22,7 @@ $("#butt").click(function () {
     $(".modal   ").fadeOut();
 });
 
-// Carousel for Life Page
+// slideshow
 const SLIDES = $(".slide");
 SLIDES.addClass("hidden");
 let prevNum = 0;

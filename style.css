@@ -224,11 +224,11 @@ body {
 }
 
 #java {
-  color: rgb(255, 237, 33);
+  color: orange;
 }
 
 #python {
-  color: rgb(36, 137, 238);
+  color: rgb(0, 255, 247);
 }
 
 #unity {
@@ -236,23 +236,23 @@ body {
 }
 
 #c {
-  color: rgb(254, 19, 27);
+  color: red;
 }
 
 #html {
   color: rgb(135, 2, 135);
 }
 
-#sql {
+#js {
   color: rgb(21, 117, 74);
 }
 
-#js {
+#sql {
   color: rgb(160, 163, 0);
 }
 
 #go {
-  color: rgb(179, 103, 3);
+  color: darkblue;
 }
 
 #headshot {
@@ -356,15 +356,18 @@ button:hover {
 .btnpair {
   border-radius: 2rem;
   font-size: xx-large;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
+  color:#000000;
   text-decoration: none;
   height: 20%;
   margin: auto auto;
 }
 
 .btnpair:hover {
-  color: white;
-  background-color: black;
+  background-color: rgb(255, 255, 255);
+  color: aliceblue;
+  
+
 }
 
 #lifeca {
