@@ -586,3 +586,10 @@ body {
   text-align: center;
   margin-top: 1%;
 }
+
+.copyright {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 1px;
+}
