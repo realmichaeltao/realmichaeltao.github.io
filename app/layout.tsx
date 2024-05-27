@@ -6,13 +6,15 @@ type LayoutProps = {
   children: ReactNode;
 };
 
-export default function RootLayout({ children }: LayoutProps) {
-  return (
-    <html lang="en">
-      <body>
-        <Header />
-        <main>{children}</main>
-      </body>
-    </html>
-  );
-}
+const RootLayout = ({ children }: LayoutProps) => (
+  <html lang="en">
+    <body>
+      <Header />
+      <main>
+        {children}
+      </main>
+    </body>
+  </html>
+);
+
+export default RootLayout;

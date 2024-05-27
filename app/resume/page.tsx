@@ -1,11 +1,11 @@
 import React from 'react';
-import Layout from '../layout';
+import RootLayout from '../layout';
 
 const Resume = () => (
-  <Layout>
+  <RootLayout>
     <h1>Resume</h1>
     <p>This is the resume page.</p>
-  </Layout>
+  </RootLayout>
 );
 
 export default Resume;

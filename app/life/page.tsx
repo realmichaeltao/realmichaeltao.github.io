@@ -1,11 +1,11 @@
 import React from 'react';
-import Layout from '../layout';
+import RootLayout from '../layout';
 
 const Life = () => (
-  <Layout>
+  <RootLayout>
     <h1>Life</h1>
     <p>This is the life page.</p>
-  </Layout>
+  </RootLayout>
 );
 
 export default Life;

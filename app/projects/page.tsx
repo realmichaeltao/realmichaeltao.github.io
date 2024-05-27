@@ -1,11 +1,11 @@
 import React from 'react';
-import Layout from '../layout';
+import RootLayout from '../layout';
 
 const Projects = () => (
-  <Layout>
+  <RootLayout>
     <h1>Projects</h1>
     <p>This is the projects page.</p>
-  </Layout>
+  </RootLayout>
 );
 
 export default Projects;

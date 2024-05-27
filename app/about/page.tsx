@@ -1,11 +1,11 @@
 import React from 'react';
-import Layout from '../layout';
+import RootLayout from '../layout';
 
 const About = () => (
-  <Layout>
+  <RootLayout>
     <h1>About Me</h1>
     <p>This is the about me page.</p>
-  </Layout>
+  </RootLayout>
 );
 
 export default About;

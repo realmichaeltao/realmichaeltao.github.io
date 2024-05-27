@@ -1,11 +1,12 @@
 import React from 'react';
-import Layout from './layout';
+import './globals.css';
+import RootLayout from './layout';
 
 const Home = () => (
-  <Layout>
+  <RootLayout>
     <h1>Welcome to My Website</h1>
     <p>This is the homepage.</p>
-  </Layout>
+  </RootLayout>
 );
 
 export default Home;
