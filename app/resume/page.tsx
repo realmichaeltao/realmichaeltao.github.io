@@ -121,7 +121,7 @@ const Resume = () => (
               <ul>
                 <li>Designed and developed a real-time shuttle bus tracking web application using <strong>React</strong> for the frontend, <strong>Django</strong> for backend services, integrating <strong>Tencent Location Services API</strong> for real-time bus location tracking, and <strong>WebSockets</strong> for real-time bus updates, and implementing advanced geospatial search with optimized indexing strategies, performance optimization, addressing concurrency issues, and resolving performance bottlenecks with robust data processing, handling data processing with 50+ queries per second and decreasing query latency by 20%</li>
                 <li>Developed a schema normalization, handling data processing with 50+ queries per second and decreasing query latency by 20%</li>
-                <li>Integrated with Alibaba's <strong>Qwen LLM</strong> (closed-source AI model) to enable <strong>Natural Language Processing (NLP)</strong> to enable intelligent assistance for route inquiries, handling 500+ user conversations daily</li>
+                <li>Integrated with Alibaba&apos;s <strong>Qwen LLM</strong> (closed-source AI model) to enable <strong>Natural Language Processing (NLP)</strong> to enable intelligent assistance for route inquiries, handling 500+ user conversations daily</li>
               </ul>
             </div>
           </div>

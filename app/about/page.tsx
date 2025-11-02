@@ -6,9 +6,9 @@ const About = () => (
       <h2 className="section-title">About Me</h2>
       
       <div className="card" style={{ marginBottom: '2rem' }}>
-        <h3>👋 Hello, I'm Michael Tao</h3>
+        <h3>👋 Hello, I&apos;m Michael Tao</h3>
         <p style={{ marginTop: '1rem', lineHeight: '1.8' }}>
-          I'm a software engineer and data scientist currently pursuing my Master of Science in Software Engineering 
+          I&apos;m a software engineer and data scientist currently pursuing my Master of Science in Software Engineering 
           at Carnegie Mellon University - Silicon Valley. With a strong foundation in computer science and data science 
           from UC Berkeley, I specialize in building scalable systems, cloud infrastructure, and machine learning solutions.
         </p>

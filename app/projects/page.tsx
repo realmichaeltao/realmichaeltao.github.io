@@ -64,7 +64,7 @@ const Projects = () => (
             <span>🚀 Various Technologies</span>
           </div>
           <p style={{ marginTop: '1rem' }}>
-            I've worked on numerous other projects involving machine learning, web development, and system programming. 
+            I&apos;ve worked on numerous other projects involving machine learning, web development, and system programming. 
             Check out my GitHub for more details!
           </p>
           <div style={{ marginTop: '1.5rem' }}>

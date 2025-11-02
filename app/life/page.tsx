@@ -8,8 +8,8 @@ const Life = () => (
       <div className="card" style={{ marginBottom: '2rem' }}>
         <h3>🌟 About My Journey</h3>
         <p style={{ marginTop: '1rem', lineHeight: '1.8' }}>
-          Beyond coding and building systems, I'm passionate about continuous learning and exploring new technologies. 
-          Currently pursuing my Master's at Carnegie Mellon University, I'm constantly amazed by the intersection of 
+          Beyond coding and building systems, I&apos;m passionate about continuous learning and exploring new technologies. 
+          Currently pursuing my Master&apos;s at Carnegie Mellon University, I&apos;m constantly amazed by the intersection of 
           software engineering, artificial intelligence, and cloud computing.
         </p>
       </div>
@@ -42,16 +42,16 @@ const Life = () => (
       <div className="card" style={{ marginTop: '2rem' }}>
         <h3>🌏 Experience Across Borders</h3>
         <p style={{ marginTop: '1rem', lineHeight: '1.8' }}>
-          Having worked in both the United States and China, I've gained valuable insights into different tech cultures 
+          Having worked in both the United States and China, I&apos;ve gained valuable insights into different tech cultures 
           and approaches to software development. From my time at Alibaba Cloud in Nanjing to internships in San Francisco 
           and Silicon Valley, these experiences have shaped my perspective on building global, scalable solutions.
         </p>
       </div>
 
       <div className="card" style={{ marginTop: '2rem' }}>
-        <h3>💬 Let's Connect!</h3>
+        <h3>💬 Let&apos;s Connect!</h3>
         <p style={{ marginTop: '1rem', lineHeight: '1.8', marginBottom: '1.5rem' }}>
-          I'm always excited to connect with fellow developers, discuss new technologies, or collaborate on interesting projects. 
+          I&apos;m always excited to connect with fellow developers, discuss new technologies, or collaborate on interesting projects. 
           Feel free to reach out!
         </p>
         <div className="contact-links" style={{ justifyContent: 'flex-start' }}>

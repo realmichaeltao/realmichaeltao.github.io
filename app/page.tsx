@@ -8,7 +8,7 @@ const Home = () => (
       <h1>Michael Tao</h1>
       <p className="subtitle">Software Engineer & Data Scientist</p>
       <p className="description">
-        Master's student at Carnegie Mellon University specializing in Software Engineering. 
+        Master&apos;s student at Carnegie Mellon University specializing in Software Engineering. 
         Passionate about building scalable systems, machine learning, and cloud infrastructure.
       </p>
       <div className="btn-group">
