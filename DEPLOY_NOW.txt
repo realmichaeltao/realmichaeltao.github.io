@@ -1,0 +1,77 @@
+========================================
+DEPLOY YOUR WEBSITE TO GITHUB PAGES
+========================================
+
+Follow these steps to deploy to realmichaeltao.github.io:
+
+STEP 1: Create GitHub Repository
+---------------------------------
+1. Go to https://github.com/new
+2. Repository name: realmichaeltao.github.io
+3. Make it PUBLIC (required for GitHub Pages)
+4. Do NOT add README, .gitignore, or license
+5. Click "Create repository"
+
+
+STEP 2: Push Your Code to GitHub
+---------------------------------
+Open Terminal and run these commands:
+
+cd /Users/michael/Desktop/个人网站/mtspace
+
+git init
+git add .
+git commit -m "Initial commit: Personal portfolio website"
+git remote add origin https://github.com/realmichaeltao/realmichaeltao.github.io.git
+git branch -M main
+git push -u origin main
+
+
+STEP 3: Enable GitHub Pages
+----------------------------
+1. Go to: https://github.com/realmichaeltao/realmichaeltao.github.io
+2. Click "Settings" tab
+3. Click "Pages" in left sidebar
+4. Under "Source", select: "GitHub Actions"
+5. Save
+
+
+STEP 4: Wait for Deployment
+----------------------------
+1. Go to "Actions" tab in your repository
+2. Watch the deployment workflow run (1-3 minutes)
+3. Once complete, your site is live!
+
+
+STEP 5: Visit Your Website! 🎉
+-------------------------------
+https://realmichaeltao.github.io
+
+
+========================================
+MAKING FUTURE UPDATES
+========================================
+
+Whenever you want to update your website:
+
+git add .
+git commit -m "Description of changes"
+git push
+
+Your website will automatically rebuild and redeploy!
+
+
+========================================
+TROUBLESHOOTING
+========================================
+
+If site doesn't load:
+- Wait 5 minutes for DNS propagation
+- Check Actions tab for errors
+- Verify repository is PUBLIC
+- Clear browser cache
+
+For detailed help, see DEPLOYMENT.md
+
+========================================
+
