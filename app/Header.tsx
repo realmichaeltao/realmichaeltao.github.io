@@ -7,7 +7,10 @@ const Header = () => (
     <nav>
       <ul>
         <li>
-          <Link href="/about">About Me</Link>
+          <Link href="/">Home</Link>
+        </li>
+        <li>
+          <Link href="/about">About</Link>
         </li>
         <li>
           <Link href="/projects">Projects</Link>
