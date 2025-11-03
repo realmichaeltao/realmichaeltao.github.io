@@ -19,7 +19,7 @@ const RootLayout = ({ children }: LayoutProps) => {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes" />
         <meta name="theme-color" content="#0f172a" />
-        <title>Michael Tao - Software Engineer & AI Enthusiast</title>
+        <title>Michael Tao</title>
         <meta name="description" content="Portfolio website of Michael Tao, Software Engineer and AI Enthusiast at Carnegie Mellon University" />
       </head>
       <body>
