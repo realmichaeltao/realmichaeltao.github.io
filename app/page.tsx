@@ -8,7 +8,7 @@ const Home = () => (
     <div className="hero-content">
       <div className="profile-image-container">
         <Image
-          src="/images/profile.jpg"
+          src="/images/Profile.JPG"
           alt="Michael Tao"
           width={180}
           height={180}
