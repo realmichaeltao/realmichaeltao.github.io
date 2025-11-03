@@ -8,14 +8,13 @@ const About = () => (
       <div className="card" style={{ marginBottom: '2rem' }}>
         <h3>👋 Hello, I&apos;m Michael Tao</h3>
         <p style={{ marginTop: '1rem', lineHeight: '1.8' }}>
-          I&apos;m a software engineer and data scientist currently pursuing my Master of Science in Software Engineering 
-          at Carnegie Mellon University - Silicon Valley. With a strong foundation in computer science and data science 
-          from UC Berkeley, I specialize in building scalable systems, cloud infrastructure, and machine learning solutions.
+          I&apos;m a student currently pursuing my <strong>Master of Science in Software Engineering</strong> at <strong>Carnegie Mellon University – Silicon Valley</strong>.
         </p>
         <p style={{ marginTop: '1rem', lineHeight: '1.8' }}>
-          I have hands-on experience working with cutting-edge technologies including Angular, Vue, TypeScript, Python, 
-          and various cloud platforms (AWS, Azure, GCP). My work spans from modernizing legacy codebases to developing 
-          real-time shuttle tracking systems and optimizing cloud infrastructure.
+          Before that, I earned my bachelor&apos;s degree in <strong>Computer Science and Data Science</strong> from <strong>UC Berkeley</strong>, where I developed a deep appreciation for building systems that balance <strong>performance</strong>, <strong>reliability</strong>, and <strong>creativity</strong>.
+        </p>
+        <p style={{ marginTop: '1rem', lineHeight: '1.8' }}>
+          I&apos;m passionate about designing <strong>scalable solutions</strong>, improving <strong>developer experience</strong>, and bringing ideas to life through thoughtful engineering. Whether it&apos;s reimagining legacy systems or architecting something entirely new, I love crafting software that feels both <strong>elegant</strong> and <strong>impactful</strong>.
         </p>
       </div>
 
@@ -23,11 +22,11 @@ const About = () => (
       
       <div className="grid grid-2">
         <div className="card">
-          <h3>Carnegie Mellon University - Silicon Valley</h3>
+          <h3>Carnegie Mellon University</h3>
           <div className="meta">
             <span>📍 Mountain View, CA</span>
             <span>•</span>
-            <span>📅 Aug 2025 - May 2026</span>
+            <span>📅 Aug 2025 - Dec 2026</span>
           </div>
           <p><strong>Master of Science in Software Engineering</strong></p>
           <p style={{ marginTop: '0.5rem' }}>

@@ -1,12 +1,24 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import './globals.css';
 
 const Home = () => (
   <div className="hero">
     <div className="hero-content">
+      <div className="profile-image-container">
+        <Image
+          src="/images/profile.jpg"
+          alt="Michael Tao"
+          width={180}
+          height={180}
+          className="profile-image"
+          priority
+          sizes="(max-width: 480px) 150px, 180px"
+        />
+      </div>
       <h1>Michael Tao</h1>
-      <p className="subtitle">Software Engineer & Data Scientist</p>
+      <p className="subtitle">Software Engineer & AI Enthusiast</p>
       <p className="description">
         Master&apos;s student at Carnegie Mellon University specializing in Software Engineering. 
         Passionate about building scalable systems, machine learning, and cloud infrastructure.
@@ -15,8 +27,8 @@ const Home = () => (
         <Link href="/projects" className="btn btn-primary">
           View My Work
         </Link>
-        <Link href="/resume" className="btn btn-secondary">
-          View Resume
+        <Link href="/internships" className="btn btn-secondary">
+          View Internships
         </Link>
       </div>
       <div className="contact-links">
@@ -29,6 +41,9 @@ const Home = () => (
         <a href="tel:+15107103025" className="contact-link">
           📱 (510) 710-3025
         </a>
+      </div>
+      <div className="home-footer">
+        <p>Proudly built by myself using Next.js, React, TypeScript & Tailwind CSS</p>
       </div>
     </div>
   </div>

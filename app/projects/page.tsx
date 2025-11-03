@@ -7,7 +7,7 @@ const Projects = () => (
       
       <div className="grid grid-2">
         <div className="card">
-          <h3>🎓 TAC (Taolearn)</h3>
+          <h3>🎓 BJC Teachers</h3>
           <div className="meta">
             <span>👨‍💻 Tech Lead</span>
             <span>•</span>
@@ -24,9 +24,9 @@ const Projects = () => (
         </div>
 
         <div className="card">
-          <h3>🔄 FlowEx</h3>
+          <h3>🔄 PintOS</h3>
           <div className="meta">
-            <span>👨‍💻 Project Lead</span>
+            <span>👨‍💻 Tech Lead</span>
             <span>•</span>
             <span>📅 Sept 2024 - Dec 2024</span>
           </div>
@@ -43,7 +43,7 @@ const Projects = () => (
         <div className="card">
           <h3>💾 Database Engine</h3>
           <div className="meta">
-            <span>👨‍💻 Project Lead</span>
+            <span>👨‍💻 Tech Lead</span>
             <span>•</span>
             <span>📅 Jan 2024 - May 2024</span>
           </div>
@@ -69,13 +69,13 @@ const Projects = () => (
           </p>
           <div style={{ marginTop: '1.5rem' }}>
             <a 
-              href="https://linkedin.com/in/realmichaeltao/" 
+              href="https://github.com/realmichaeltao" 
               target="_blank" 
               rel="noopener noreferrer"
               className="btn btn-primary"
               style={{ display: 'inline-block' }}
             >
-              View LinkedIn Profile
+              View Github Profile
             </a>
           </div>
         </div>
