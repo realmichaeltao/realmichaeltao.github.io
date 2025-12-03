@@ -84,16 +84,16 @@ const Projects = () => (
       <div style={{ marginTop: '4rem', textAlign: 'center' }}>
         <h3 style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>Technologies Used Across Projects</h3>
         <div className="skills-grid" style={{ maxWidth: '800px', margin: '2rem auto' }}>
-          <div className="skill-tag">Python</div>
+          <div className="skill-tag">C/C++</div>
+          <div className="skill-tag">TypeScript</div>
+          <div className="skill-tag">Python</div> 
+          <div className="skill-tag">Go</div>
+         
           <div className="skill-tag">Java</div>
-          <div className="skill-tag">C</div>
           <div className="skill-tag">Ruby on Rails</div>
           <div className="skill-tag">MongoDB</div>
           <div className="skill-tag">AWS</div>
-          <div className="skill-tag">Heroku</div>
-          <div className="skill-tag">RSpec</div>
-          <div className="skill-tag">Cucumber</div>
-          <div className="skill-tag">RESTful APIs</div>
+          
         </div>
       </div>
     </div>
